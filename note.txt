@@ -1,0 +1,86 @@
+React
+------
+to create a ptoject
+ npx create-react-app app_name
+
+run
+ npm start
+
+building blocks of react
+-------------------------
+html
+css
+js
+
+angular            |     react
+                   |
+ -framework of js  |   - library of javascript
+ -real dom         |   - virtual dom
+ -running time is  |    -less running time
+  high (if any 
+  changes given the
+   entire  )            
+
+
+Advantages of react
+--------------------
+-react uses virtual dom (so it is faster)
+-reusable components
+-jsx (javascript xml)  -language
+
+
+components in react
+-------------------
+2 types
+ -class based  -statefull components
+ -function based -stateless components
+
+
+
+ <></>   -empty fragment
+
+
+ react hooks 
+-------------
+
+ state
+ ------
+ object used to store datas inside a component in react
+
+hook
+ useState -react
+
+
+ props
+ -----
+ to share datas from parent to child component
+
+ API call in javascript
+ ----------------------
+
+ AJAX
+ ----
+ XmlHttp
+ fetch
+ asynch await
+
+
+first working hook of a component
+---------------------------------
+useEffect  -react
+
+
+
+
+redirection/routing in react
+----------------------------
+react-router-dom    -library used for routing
+
+Browser router -wrap the main component inside the browser router component
+Route         -wrap the component which need redirection
+Routes         -wrap all the router if we set morethan one component paths
+
+Link -a component in react-router-dom used for redirection
+
+
+useParams-hook react-router-dom that used to access params
